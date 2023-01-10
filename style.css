@@ -1,0 +1,175 @@
+body {
+    background: url(../../../Downloads/bookbackground2.jpg);
+    background-size: auto;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 35, 30); 
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.intro {
+    display: flex;
+    margin: 150px 100px;
+    padding: 30px; 
+    border-radius: 25px;
+    gap: 100px;
+    background-color: rgba(14, 35, 30, 0.7);
+}
+
+.intro img {
+    height: 300px;
+    width: auto;
+}
+
+.info button {
+    background-color: rgb(34, 97, 62);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: white;
+}
+
+.info button:hover {
+    background-color: white;
+    color: rgb(34, 97, 62);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.info {
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    gap: 10px;
+    color: black;
+    background-color: rgb(25, 64, 55);
+}
+
+.body h2 {
+    font-size: 36px;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+.images div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images div p {
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+.images img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 150px 300px;
+}
+
+.phrase {
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black; 
+}
+
+.quote div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;  
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin: 50px 200px;
+    padding: 50px 100px;
+    border-radius: 25px;
+    background-color: rgb(25, 64, 55);
+}
+
+.readers {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.want { 
+    margin-top: 5px;
+    color: rgb(104, 145, 135);
+}
+
+.sign-up button {
+    background-color: white;
+    color: rgb(34, 97, 62);
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sign-up button:hover {
+    background-color: rgb(104, 145, 135);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(14, 35, 30);
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+}
+
